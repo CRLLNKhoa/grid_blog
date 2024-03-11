@@ -47,7 +47,7 @@ export default function SetInfo() {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <div className="flex mb-4 justify-between items-center group cursor-pointer">
+        <div className="flex mb-4 justify-between items-center group cursor-pointer text-red-500 animate-pulse">
           <h1 className="font-bold uppercase">Cài đặt thông tin</h1>
           <MdAddCircle className="w-6 h-6 cursor-pointer group-hover:animate-spin duration-1000" />
         </div>
