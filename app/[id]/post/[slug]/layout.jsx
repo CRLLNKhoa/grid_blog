@@ -9,6 +9,7 @@ export async function generateMetadata({ params: { slug } }) {
       openGraph: {
         images: ["/Grid.png"],
       },
+      description: data[0]?.content || "Nhấn vào để xem chi tiết!",
     };
   }
 
