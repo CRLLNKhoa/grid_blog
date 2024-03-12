@@ -98,12 +98,6 @@ body{
   color: red;
 }
 
-.content p{
-  display: flex;
-  flex-wrap: wrap; 
-  gap: 8px;
-}
-
 .content h1{
   font-weight: bold;
   font-size: x-large;
